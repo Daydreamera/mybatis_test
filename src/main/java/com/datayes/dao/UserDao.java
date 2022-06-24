@@ -11,7 +11,7 @@ public interface UserDao {
     /**
      * 查询所有操作
      */
-    List<User> findAll();
+    List<User> findAll(String name);
 
     String findName();
 }

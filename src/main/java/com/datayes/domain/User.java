@@ -40,4 +40,14 @@ public class User implements Serializable {
     public void setUserSex(String userSex) {
         this.userSex = userSex;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId=" + userId +
+                ", userName='" + userName + '\'' +
+                ", userAge=" + userAge +
+                ", userSex='" + userSex + '\'' +
+                '}';
+    }
 }
